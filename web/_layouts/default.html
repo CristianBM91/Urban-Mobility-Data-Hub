@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
+    header { background: #004aad; color: white; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    nav a { color: white; margin-left: 1rem; text-decoration: none; font-weight: bold; }
+    main { padding: 2rem; max-width: 900px; margin: auto; }
+    footer { text-align: center; padding: 1rem; background: #222; color: #aaa; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Urban Mobility Data Hub</h1>
+    <nav>
+      {% if page.lang == "en" %}
+        <a href="/Urban-Mobility-Data-Hub/web/en/">Home</a>
+        <a href="/Urban-Mobility-Data-Hub/web/en/docs.html">Docs</a>
+        <a href="/Urban-Mobility-Data-Hub/web/en/example.html">Example</a>
+        <a href="/Urban-Mobility-Data-Hub/web/es/">Español</a>
+      {% else %}
+        <a href="/Urban-Mobility-Data-Hub/web/es/">Inicio</a>
+        <a href="/Urban-Mobility-Data-Hub/web/es/docs.html">Documentación</a>
+        <a href="/Urban-Mobility-Data-Hub/web/es/example.html">Ejemplo</a>
+        <a href="/Urban-Mobility-Data-Hub/web/en/">English</a>
+      {% endif %}
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    © 2025 Urban Mobility Data Hub — Proyecto ValgrAI
+  </footer>
+</body>
+</html>
