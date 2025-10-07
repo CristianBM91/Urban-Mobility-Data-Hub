@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>Documentación</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
@@ -16,22 +16,27 @@
   <header>
     <h1>Urban Mobility Data Hub</h1>
     <nav>
-      {% if page.lang == "en" %}
-        <a href="{{ site.baseurl }}/en/">Home</a>
-        <a href="{{ site.baseurl }}/en/docs.html">Docs</a>
-        <a href="{{ site.baseurl }}/en/example.html">Example</a>
-        <a href="{{ site.baseurl }}/es/">Español</a>
-      {% else %}
-        <a href="{{ site.baseurl }}/es/">Inicio</a>
-        <a href="{{ site.baseurl }}/es/docs.html">Documentación</a>
-        <a href="{{ site.baseurl }}/es/example.html">Ejemplo</a>
-        <a href="{{ site.baseurl }}/en/">English</a>
-      {% endif %}
+      
+        <a href="/es/">Inicio</a>
+        <a href="/es/docs.html">Documentación</a>
+        <a href="/es/example.html">Ejemplo</a>
+        <a href="/en/">English</a>
+      
     </nav>
 
   </header>
   <main>
-    {{ content }}
+    <h1 id="-documentación">📘 Documentación</h1>
+
+<p>Aquí encontrarás la documentación técnica y arquitectónica del <strong>Urban Mobility Data Hub</strong>.</p>
+
+<blockquote>
+  <p>Texto provisional. Esta sección incluirá diagramas de arquitectura, guías de despliegue y referencias de API.</p>
+</blockquote>
+
+<p><a href="index.html">← Volver al inicio</a></p>
+
+
   </main>
   <footer>
     © 2025 Urban Mobility Data Hub — Proyecto ValgrAI

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>Urban Mobility Data Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
@@ -16,22 +16,22 @@
   <header>
     <h1>Urban Mobility Data Hub</h1>
     <nav>
-      {% if page.lang == "en" %}
-        <a href="{{ site.baseurl }}/en/">Home</a>
-        <a href="{{ site.baseurl }}/en/docs.html">Docs</a>
-        <a href="{{ site.baseurl }}/en/example.html">Example</a>
-        <a href="{{ site.baseurl }}/es/">Español</a>
-      {% else %}
-        <a href="{{ site.baseurl }}/es/">Inicio</a>
-        <a href="{{ site.baseurl }}/es/docs.html">Documentación</a>
-        <a href="{{ site.baseurl }}/es/example.html">Ejemplo</a>
-        <a href="{{ site.baseurl }}/en/">English</a>
-      {% endif %}
+      
+        <a href="/es/">Inicio</a>
+        <a href="/es/docs.html">Documentación</a>
+        <a href="/es/example.html">Ejemplo</a>
+        <a href="/en/">English</a>
+      
     </nav>
 
   </header>
   <main>
-    {{ content }}
+    <h1 id="-urban-mobility-data-hub">🌆 Urban Mobility Data Hub</h1>
+
+<p>Un <strong>espacio de datos de movilidad urbana</strong> desarrollado en Valencia, que permite el intercambio seguro y gobernado de información para sistemas de transporte inteligente y conducción autónoma.</p>
+
+<p><a href="docs.html">Leer la documentación →</a></p>
+
   </main>
   <footer>
     © 2025 Urban Mobility Data Hub — Proyecto ValgrAI

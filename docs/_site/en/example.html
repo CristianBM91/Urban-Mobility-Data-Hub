@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang }}">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <title>Example</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f8f9fa; color: #333; }
@@ -16,22 +16,28 @@
   <header>
     <h1>Urban Mobility Data Hub</h1>
     <nav>
-      {% if page.lang == "en" %}
-        <a href="{{ site.baseurl }}/en/">Home</a>
-        <a href="{{ site.baseurl }}/en/docs.html">Docs</a>
-        <a href="{{ site.baseurl }}/en/example.html">Example</a>
-        <a href="{{ site.baseurl }}/es/">Español</a>
-      {% else %}
-        <a href="{{ site.baseurl }}/es/">Inicio</a>
-        <a href="{{ site.baseurl }}/es/docs.html">Documentación</a>
-        <a href="{{ site.baseurl }}/es/example.html">Ejemplo</a>
-        <a href="{{ site.baseurl }}/en/">English</a>
-      {% endif %}
+      
+        <a href="/en/">Home</a>
+        <a href="/en/docs.html">Docs</a>
+        <a href="/en/example.html">Example</a>
+        <a href="/es/">Español</a>
+      
     </nav>
 
   </header>
   <main>
-    {{ content }}
+    <h1 id="-example">🚀 Example</h1>
+
+<p>This section will contain an example use case for the <strong>Urban Mobility Data Hub</strong>,<br />
+such as data exchange between a provider and a consumer within the ecosystem.</p>
+
+<blockquote>
+  <p>Placeholder text. The example will demonstrate real dataset negotiation and transfer.</p>
+</blockquote>
+
+<p><a href="index.html">← Back to home</a></p>
+
+
   </main>
   <footer>
     © 2025 Urban Mobility Data Hub — Proyecto ValgrAI
